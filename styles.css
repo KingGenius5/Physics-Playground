@@ -1,0 +1,40 @@
+.container section {
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+
+.landing {
+  background: blue;
+}
+
+.lesson1 {
+  background: red;
+
+}
+
+.lesson2 {
+  background: yellow;
+
+}
+
+.lesson3 {
+  background: lightblue;
+
+}
+
+.lesson4 {
+  background: green;
+
+}
+
+.lesson5 {
+  background: purple;
+
+}
+
+.lesson6 {
+  background: orange;
+
+
+}
