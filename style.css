@@ -112,6 +112,46 @@ img:last-of-type {
 }
 
 
+/********************************************
+---------------LESSON 1 STYLES---------------
+*********************************************/
+#lesson1:before {
+  background-image: url("https://i.pinimg.com/originals/10/10/e8/1010e8923de1918ed49304462b5b41b3.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+
+/********************************************
+---------------LESSON 2 STYLES---------------
+*********************************************/
+#lesson2 {
+  background-image: url("https://lorempixel.com/640/480/abstract/3/");
+  z-index:2;
+}
+
+/********************************************
+---------------LESSON 3 STYLES---------------
+*********************************************/
+#lesson3:before {
+  background-image: url("https://lorempixel.com/640/480/abstract/5/");
+  transform: translateZ(-1px) scale(2);
+}
+
+/********************************************
+---------------LESSON 4 STYLES---------------
+*********************************************/
+#lesson4 {
+  background-image: url("https://lorempixel.com/640/480/abstract/5/");
+  z-index:2;
+}
+
+/********************************************
+---------------LESSON 5 STYLES---------------
+*********************************************/
+#lesson5 {
+  background: #222;
+  transform: translateZ(-1px) scale(2);
+}
+
 @keyframes move_wave {
   0% {
     transform: translateX(0) translateZ(0) scaleY(1)
@@ -194,45 +234,4 @@ img:last-of-type {
 
 .waveAnimation .waveBottom {
   animation: move_wave 15s linear infinite;
-}
-
-
-/********************************************
----------------LESSON 1 STYLES---------------
-*********************************************/
-#lesson1:before {
-  background-image: url("https://i.pinimg.com/originals/10/10/e8/1010e8923de1918ed49304462b5b41b3.jpg");
-  transform: translateZ(-1px) scale(2);
-}
-
-/********************************************
----------------LESSON 2 STYLES---------------
-*********************************************/
-#lesson2 {
-  background-image: url("https://lorempixel.com/640/480/abstract/3/");
-  z-index:2;
-}
-
-/********************************************
----------------LESSON 3 STYLES---------------
-*********************************************/
-#lesson3:before {
-  background-image: url("https://lorempixel.com/640/480/abstract/5/");
-  transform: translateZ(-1px) scale(2);
-}
-
-/********************************************
----------------LESSON 4 STYLES---------------
-*********************************************/
-#lesson4 {
-  background-image: url("https://i.pinimg.com/originals/10/10/e8/1010e8923de1918ed49304462b5b41b3.jpg");
-  z-index:2;
-}
-
-/********************************************
----------------LESSON 5 STYLES---------------
-*********************************************/
-#lesson5 {
-  background: #222;
-  transform: translateZ(-1px) scale(2);
 }
