@@ -197,13 +197,11 @@ img:last-of-type {
 }
 
 
-
-
 /********************************************
 ---------------LESSON 1 STYLES---------------
 *********************************************/
 #lesson1:before {
-  background-image: url("https://lorempixel.com/640/480/abstract/4/");
+  background-image: url("https://i.pinimg.com/originals/10/10/e8/1010e8923de1918ed49304462b5b41b3.jpg");
   transform: translateZ(-1px) scale(2);
 }
 
@@ -227,7 +225,7 @@ img:last-of-type {
 ---------------LESSON 4 STYLES---------------
 *********************************************/
 #lesson4 {
-  background-image: url("https://lorempixel.com/640/480/abstract/3/");
+  background-image: url("https://i.pinimg.com/originals/10/10/e8/1010e8923de1918ed49304462b5b41b3.jpg");
   z-index:2;
 }
 
@@ -236,4 +234,5 @@ img:last-of-type {
 *********************************************/
 #lesson5 {
   background: #222;
+  transform: translateZ(-1px) scale(2);
 }
