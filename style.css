@@ -101,7 +101,7 @@ img:last-of-type {
 ---------------MAIN PAGE STYLES---------------
 *********************************************/
 #title {
-  background-image: url("https://lorempixel.com/640/480/abstract/6/");
+  background-image: url("https://lh3.googleusercontent.com/proxy/wJbbwrrLW1Z3KJOIruU565GRTdEFoT3pJDQI3xR8AXvEHmxsIWygpNgpbKag9CcWypp9tN6iqpqNxnTlN3J4D_jpdWFdiW-E3zWXWnvqog");
   z-index:2;
 }
 
@@ -132,7 +132,7 @@ img:last-of-type {
 ---------------LESSON 3 STYLES---------------
 *********************************************/
 #lesson3:before {
-  background-image: url("https://lorempixel.com/640/480/abstract/5/");
+  background-image: url("https://media0.giphy.com/media/SVBgEYzSEr0BdbPSAr/giphy.gif");
   transform: translateZ(-1px) scale(2);
 }
 
