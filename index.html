@@ -29,16 +29,31 @@
   <div id="lesson1" class="slide">
     <div class="title">
       <h1>Intro to Linear Motion: Move It</h1>
-      <p>Lorem ipsum dolor sit amet, in velit iudico mandamus sit, persius dolorum in per, postulant mnesarchum cu nam. Malis movet ornatus id vim, feugait detracto est ea, eam eruditi conceptam in. Ne sit explicari interesset. Labores perpetua cum
-        at. Id viris docendi denique vim.</p>
+      <h2>Motion is Relative</h2>
+      <p>Everything moves—even things that appear to be at rest. They move relative to
+        the Sun and stars. As you’re reading this, you’re moving at about 107,000 kilometers per hour relative to the Sun, and you’re moving even faster relative to the
+        center of our galaxy. When we discuss the motion of something, we describe the
+        motion relative to something else. If you walk down the aisle of a moving bus,
+        your speed relative to the floor of the bus is likely quite different from your speed
+        relative to the road. When we say a racing car reaches a speed of 300 kilometers
+        per hour, we mean relative to the track. Unless stated otherwise, when we discuss the speeds of things in our environment, we mean relative to the surface of
+        Earth. Motion is relative.</p>
     </div>
   </div>
 
   <div id="lesson2" class="slide">
     <div class="title">
       <h1>Atoms: They're All Around Us</h1>
-      <p>Lorem ipsum dolor sit amet, in velit iudico mandamus sit, persius dolorum in per, postulant mnesarchum cu nam. Malis movet ornatus id vim, feugait detracto est ea, eam eruditi conceptam in. Ne sit explicari interesset. Labores perpetua cum
-        at. Id viris docendi denique vim.</p>
+      <h2>Atomic Structure</h2>
+      <p>The principal building block of the nucleus is the nucleon, which is in turn composed of fundamental particles called quarks. When a nucleon is in an electrically
+        neutral state, it is a neutron; when it is in a positively charged state, it is a proton.
+        All protons are identical; they are copies of one another. Likewise with neutrons:
+        Each neutron is like every other neutron. The lighter nuclei have roughly equal
+        numbers of protons and neutrons; more massive nuclei have more neutrons than
+        protons. Protons have a positive electric charge that repels other positive charges
+        but attracts negative charges. So like kinds of electric charges repel one another,
+        and unlike charges attract one another. It is the positive protons in the nucleus that
+        attract a surrounding cloud of negatively charged electrons to constitute an atom. </p>
     </div>
     <img src="https://lorempixel.com/640/480/abstract/6/">
     <img src="https://lorempixel.com/640/480/abstract/4/">
@@ -47,16 +62,43 @@
   <div id="lesson3" class="slide">
     <div class="title">
       <h1>Buoyancy: Whatever Floats Your Boat</h1>
-      <p>Lorem ipsum dolor sit amet, in velit iudico mandamus sit, persius dolorum in per, postulant mnesarchum cu nam. Malis movet ornatus id vim, feugait detracto est ea, eam eruditi conceptam in. Ne sit explicari interesset. Labores perpetua cum
-        at. Id viris docendi denique vim.</p>
+      <h2>Buoyant Force</h2>
+      <p>Anyone who has ever lifted a heavy submerged object out of water is familiar with
+        buoyancy, the apparent loss of weight experienced by objects submerged in a liquid. For example, lifting a large boulder off the bottom of a riverbed is a relatively
+        easy task as long as the boulder is below the surface. When the boulder is lifted
+        above the surface, however, the force required to lift it is increased considerably.
+        This is because, when the boulder is submerged, the water exerts an upward force
+        on it that is exactly opposite to the direction of gravity’s pull. This upward force
+        is called the buoyant force, and it is a consequence of pressure increasing with
+        depth. Figure 13.9 shows why the buoyant force acts upward. Forces due to water
+        pressure are exerted everywhere against the boulder in a direction perpendicular to
+        its surface, as shown by the vectors. Force vectors against the sides at equal depths
+        cancel one another, so there is no horizontal buoyant force. Force vectors in the
+        vertical direction, however, don’t cancel. Pressure is greater against the bottom of
+        the boulder because the bottom is deeper. So upward forces against the bottom are
+        greater than downward forces against the top, producing a net force upward—the
+        buoyant force.</p>
     </div>
   </div>
 
   <div id="lesson4" class="slide">
     <div class="title">
       <h1>Thermodynamics: Get Outta The Kitchen</h1>
-      <p>Lorem ipsum dolor sit amet, in velit iudico mandamus sit, persius dolorum in per, postulant mnesarchum cu nam. Malis movet ornatus id vim, feugait detracto est ea, eam eruditi conceptam in. Ne sit explicari interesset. Labores perpetua cum
-        at. Id viris docendi denique vim.</p>
+      <h2>Origins</h2>
+      <p>Kelvin was the first to coin the word thermodynamics (which stems from Greek
+        words meaning “movement of heat”). The science of thermodynamics was developed in the early 19th century, before the atomic and molecular theory of matter
+        was understood. Because the early workers in thermodynamics had only vague notions of atoms and knew nothing about electrons and other microscopic particles,
+        the models they used invoked macroscopic notions—such as mechanical work,
+        pressure, and temperature—and their roles in energy transformations.
+        The two foundation stones of thermodynamics are the conservation of energy
+        and the fact that heat flows spontaneously from hot to cold and not the other way
+        around. Thermodynamics provides the basic theory of heat engines, from steam
+        turbines to nuclear reactors, and the basic theory of refrigerators and heat pumps.
+        The laws of thermodynamics dashed the dreams of inventors and industrialists
+        who believed in the possibility of a perpetual motion machine: a device that, upon
+        receiving an initial input of energy, would continue to operate indefinitely without
+        further input. We begin our study of thermodynamics with a look at one of its
+        early concepts—a lower limit to temperature. </p>
     </div>
     <img src="https://lorempixel.com/640/480/abstract/6/">
     <img src="https://lorempixel.com/640/480/abstract/4/">
@@ -68,5 +110,19 @@
 
 </body>
 <script src="main.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+<script src="https://www.vantajs.com/dist/vanta.birds.min.js"></script>
+<script>
+  VANTA.GLOBE({
+    el: "lesson1",
+    mouseControls: true,
+    touchControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00
+  })
+</script>
 
 </html>
